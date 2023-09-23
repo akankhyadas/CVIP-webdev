@@ -1,0 +1,88 @@
+body{
+    background-image: linear-gradient(rgba(17, 14, 14, 0.259),rgba(0, 0, 0, 0.343)),url(./images/login.jpg);
+    height: 100vh;
+}
+.logo{
+    width:100vw;
+    height: 70px;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 150px;
+}
+.login-box{
+    background-color: rgba(0, 0, 0, 0.899);
+    color: gray;
+    width: 430px;
+    height: 630px;
+    margin: 0px 370px;
+    border-radius: 5px;
+    padding: 50px;
+    position: absolute;
+    top:50%;
+    left: 20px;
+    transform: translateY(-50%);
+    transition: 200ms ease-in-out transform,
+                200ms ease-in-out font-size;
+}
+#exampleInputEmail1{
+    height: 40px;
+    width: 400px;
+    border: none;   
+    box-shadow: none;
+    outline: none !important;
+    padding: 0px;
+    background-color: rgb(57, 54, 54);
+}
+.mb-3{
+    background-color:rgb(57, 54, 54);
+    font-size:13px;
+    color: gray;
+    border-radius: 1px;
+    padding:5px;
+    padding-top:10px;
+    justify-content: space-between;
+}
+.password{
+    background-color:rgb(57, 54, 54);;
+    font-size: small;
+    border-radius: 1px;
+    margin-top: 30px;
+    padding:5px;
+    padding-top:10px;
+
+
+}
+#exampleInputPassword1{
+    height: 40px;
+    width: 400px;
+    color: gray;
+    border: none;   
+    box-shadow: none;
+    outline: none !important;
+    padding: 0px;
+    justify-content: space-between;
+    background-color: rgb(57, 54, 54);
+}
+.btn-primary{
+    height: 45px;
+    width: 429px;
+    font-size: large;
+    font-weight: bold;
+    border: none;   
+    box-shadow: none;
+    outline: none !important;
+    padding: 0px;
+    background-color: red;
+    border-radius: 1px;
+    margin-top: 30px;
+    padding:5px;
+    padding-top:10px;
+}
+.form-check-input{
+    font-size:small;
+    margin-top: 10px;
+}
